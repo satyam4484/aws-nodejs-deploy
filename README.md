@@ -69,7 +69,7 @@ Navigate to your project directory and start your Node.js application using PM2.
 
 ```bash
 cd /path/to/your/app
-pm2 start server.js --name=BackendAPI
+pm2 start server.js --name=Backend
 ```
 
 ### Step 8: Restart Your Node.js Application with PM2 (Optional)
@@ -77,7 +77,7 @@ pm2 start server.js --name=BackendAPI
 If you need to restart your Node.js application managed by PM2, you can use the following command:
 
 ```bash
-pm2 restart BackendAPI
+pm2 restart Backend
 ```
 
 These steps should help you set up a Node.js backend API with Nginx and PM2 on your Debian-based Linux system. Make sure to customize the paths and filenames according to your specific project.
